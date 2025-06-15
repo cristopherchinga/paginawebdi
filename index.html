@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<img src="Nico.jpg" width="5%" height="40%" align="left">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Proyecto del Área Técnica 2025-2026</title>
+<style>
+  body {
+  background-image: url('ruta_de_tu_imagen_tecnologica.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #5d3a00;
+  }
+  /* Menú horizontal */
+  ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+  }
+  ul.menu > li {
+    position: relative;
+    margin: 0 10px;
+  }
+  ul.menu > li > a {
+    display: block;
+    padding: 12px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    user-select: none;
+  }
+  /* Colores para cada asignatura */
+  ul.menu > li.diseño-web > a { background-color: #f57c00; }
+  ul.menu > li.sistemas > a { background-color: #43a047; }
+  ul.menu > li.soporte > a { background-color: #1e88e5; }
+  ul.menu > li.programacion > a { background-color: #8e24aa; }
+  ul.menu > li.ofimatica > a { background-color: #fbc02d; color: #5d3a00; }
+
+  ul.menu > li > a:hover,
+  ul.menu > li:hover > a {
+    filter: brightness(1.2);
+  }
+
+  /* Submenú */
+  ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff3e0;
+    border-radius: 0 0 8px 8px;
+    min-width: 160px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    z-index: 1000;
+  }
+  ul.submenu li a {
+    color: #5d3a00;
+    padding: 10px 15px;
+    display: block;
+    font-weight: normal;
+    border-bottom: 1px solid #ffd180;
+    text-decoration: none;
+  }
+  ul.submenu li:last-child a {
+    border-bottom: none;
+  }
+  ul.submenu li a:hover {
+    background-color: #ffb74d;
+    color: white;
+  }
+  
+  /* Mostrar submenu al hover en escritorio */
+  ul.menu > li:hover > ul.submenu {
+    display: block;
+  }
+
+  /* Responsive: para móviles, mostrar submenu al tocar */
+  @media (max-width: 768px) {
+    ul.menu {
+      flex-direction: column;
+      align-items: center;
+    }
+    ul.menu > li {
+      margin: 5px 0;
+    }
+    ul.submenu {
+      position: static;
+      box-shadow: none;
+      border-radius: 0;
+      min-width: auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<h1>Proyecto del Área Técnica Informática 2025-2026</h1>
+
+<ul class="menu">
+  <li class="diseño-web">
+    <a href="#">Diseño Web</a>
+    <ul class="submenu">
+      <li><a href="file:///C:/Users/HP/Desktop/diseño%203er%20año/github%20y%20jostin.html">1er Trimestre</a></li>
+      <li><a href="#">2do Trimestre</a></li>
+      <li><a href="#">3er Trimestre</a></li>
+    </ul>
+  </li>
+  <li class="sistemas">
+    <a href="#">Sistemas Operativos y Redes</a>
+    <ul class="submenu">
+      <li><a href="#">1er Trimestre</a></li>
+      <li><a href="#">2do Trimestre</a></li>
+      <li><a href="#">3er Trimestre</a></li>
+    </ul>
+  </li>
+  <li class="soporte">
+    <a href="#">Soporte Técnico</a>
+    <ul class="submenu">
+      <li><a href="#">1er Trimestre</a></li>
+      <li><a href="#">2do Trimestre</a></li>
+      <li><a href="#">3er Trimestre</a></li>
+    </ul>
+  </li>
+  <li class="programacion">
+    <a href="#">Programación y Base de Datos</a>
+    <ul class="submenu">
+      <li><a href="#">1er Trimestre</a></li>
+      <li><a href="#">2do Trimestre</a></li>
+      <li><a href="#">3er Trimestre</a></li>
+    </ul>
+  </li>
+  <li class="ofimatica">
+    <a href="#">Aplicaciones Ofimáticas en Línea</a>
+    <ul class="submenu">
+      <li><a href="#">1er Trimestre</a></li>
+      <li><a href="#">2do Trimestre</a></li>
+      <li><a href="#">3er Trimestre</a></li>
+    </ul>
+  </li>
+</ul>
+<div style="
+  background-color: #1e2a38;
+  color: #ffffff;
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  font-family: Arial, sans-serif;
+  text-align: center;
+">
+  <h2 style="margin-top: 0;">Estudiante</h2>
+  <p><strong>Nombre:</strong> Chinga Moncayo Collin Cristopher</p>
+  <p><strong>Curso:</strong> 3ERO "N"</p>
+</div>
+
+</body>
+</html>
